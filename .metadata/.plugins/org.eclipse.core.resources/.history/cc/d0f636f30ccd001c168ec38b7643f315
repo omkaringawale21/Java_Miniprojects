@@ -1,0 +1,20 @@
+package proState;
+
+import java.util.Scanner;
+
+public class CircularPrime {
+
+	public static void main(String[] args) {
+		
+		boolean flag = true;
+		int n, num, r, c = 0;
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		num = n;
+		while(num > 0){
+			
+		}
+		
+	}
+
+}

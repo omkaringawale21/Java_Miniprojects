@@ -1,0 +1,16 @@
+package Java_Miniproject_13;
+
+import java.io.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+/*
+ * Problem Statement : Build a SImple Notepad Application using Java.
+ * @Author : Omkar Ingawale
+ */
+
+public class Notepad {
+
+}

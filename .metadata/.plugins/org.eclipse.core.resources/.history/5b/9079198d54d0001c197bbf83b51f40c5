@@ -1,0 +1,55 @@
+package Java_Miniproject_12;
+
+import java.awt.Font;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JPasswordField;
+import javax.swing.JTextField;
+
+public class GUI2 {
+
+	public static void main(String[] args) {
+		
+		JFrame frame = new JFrame("Login");
+		
+		JPanel panel = new JPanel();
+		
+		frame.setSize(300, 200);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLocation(550, 300);
+		frame.add(panel);
+		
+		panel.setLayout(null);
+		
+		JLabel label = new JLabel();
+		label.setText("User : ");
+		label.setBounds(10, 20, 80, 25);
+		panel.add(label);
+		
+		JTextField userText = new JTextField();
+		userText.setBounds(80, 20, 165, 25);
+		userText.setFont(new Font("Times New Roman", Font.PLAIN, 14));
+		panel.add(userText);
+		
+		JLabel label2 = new JLabel();
+		label2.setText("Pasword : ");
+		label2.setBounds(10, 70, 80, 25);
+		panel.add(label2);
+		
+		JPasswordField password = new JPasswordField();
+		password.setBounds(80, 70, 165, 25);
+		panel.add(password);
+		
+		JButton button = new JButton("Login");
+		button.setBounds(100, 115, 105, 30);
+		button.setFont(new Font("Tohama", Font.BOLD, 14));
+		panel.add(button);
+		
+		frame.setVisible(true);
+
+	}
+
+}

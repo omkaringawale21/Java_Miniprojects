@@ -1,0 +1,94 @@
+package Java_Miniproject_12;
+
+import java.awt.Color;
+import java.awt.EventQueue;
+import java.awt.Font;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseWheelListener;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JRadioButton;
+import javax.swing.event.MouseInputListener;
+
+import org.jxmapviewer.input.PanMouseInputListener;
+import org.jxmapviewer.input.ZoomMouseWheelListenerCenter;
+
+public class GUI3 implements ActionListener {
+
+	private static JFrame frame;
+	private static JPanel panel;
+	private static JLabel label;
+	private static JRadioButton btn, btn1, btn2;
+	
+	public GUI3(){
+		
+		frame = new JFrame();
+		
+		panel = new JPanel();
+		
+		frame.setSize(350, 200);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setLocation(550, 350);
+		frame.add(panel);
+		
+		label = new JLabel();
+		label.setText("Choose a Color :- ");
+		label.setBounds(20, 50, 60, 25);
+		label.setFont(new Font("Tohams", Font.ITALIC, 16));
+		panel.add(label);
+		
+		btn = new JRadioButton();
+		btn.setBounds(20, 70, 60, 25);
+		btn.setText("Red");
+		btn.addActionListener(this);
+		panel.add(btn);
+		
+		btn1 = new JRadioButton();
+		btn1.setBounds(20, 90, 60, 25);
+		btn1.setText("Blue");
+		btn.addActionListener(this);
+		panel.add(btn1);
+		
+		btn2 = new JRadioButton();
+		btn2.setBounds(20, 120, 60, 25);
+		btn2.setText("Orange");
+		btn.addActionListener(this);
+		panel.add(btn2);
+		
+		frame.setVisible(true);
+		
+	}
+	
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		if(e.getSource() == btn){
+			
+			panel.setBackground(Color.RED);
+			
+		}else if(e.getSource() == btn1){
+			
+			panel.setBackground(Color.BLUE);
+			
+		}else if(e.getSource() == btn2){
+			
+			panel.setBackground(Color.BLUE);
+			
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		EventQueue.invokeLater(new Runnable(){
+			public void run() {
+				new GUI3();
+			}			
+		});
+		
+	}
+
+}

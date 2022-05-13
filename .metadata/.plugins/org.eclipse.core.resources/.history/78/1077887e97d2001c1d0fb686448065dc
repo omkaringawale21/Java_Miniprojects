@@ -1,0 +1,34 @@
+package Java_Miniproject_13;
+
+import java.io.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+/*
+ * Problem Statement : Build a SImple Notepad Application using Java.
+ * @Author : Omkar Ingawale
+ */
+
+public class Notepad extends JFrame implements ActionListener, WindowListener {
+
+	JTextArea jta = new JTextArea();
+	File fnameContainer;
+	
+	public Notepad(){
+		
+		Font fnt = new Font("Arial", Font.PLAIN, 15);
+		Container con = getContentPane();
+		JMenuBar jab = new JMenuBar();
+		JMenu jmfile = new JMenu("File");
+		JMenu jmedit = new JMenu("Edit");
+		JMenu jmhelp = new JMenu("Help");
+		
+		con.setLayout(new BorderLayout());
+		JScrollPane sbrText = new JScrollPane(jta);
+		
+		
+	}
+	
+}

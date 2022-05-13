@@ -1,0 +1,18 @@
+package proState;
+
+/*
+ * Problem Statement : In Mathematics, Harshad Number(Niven Number) is a given number base is an integer that is divisible
+ *                     by the sum of its digits when writter in that base.
+ * Example : 6804                   
+ * @Author : Omkar Ingawale                    
+ */
+public class HarshadNumber {
+
+	public static void main(String[] args) {
+		
+		int n, r, num, sum = 0;
+		System.out.print("Enter a Number : ");
+		
+	}
+
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="F:/com.mysql.jdbc_5.1.5.jar/com.mysql.jdbc_5.1.5.jar" sourcepath=""/>
+	<classpathentry kind="lib" path="F:/seljar/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/httpclient-4.3.6.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/httpcore-4.3.3.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/selenium-api-2.45.0.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/selenium-chrome-driver-2.45.0.jar"/>
+	<classpathentry kind="lib" path="F:/seljar/selenium-remote-driver-2.45.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

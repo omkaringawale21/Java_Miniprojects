@@ -1,0 +1,37 @@
+package proState;
+
+/*
+ * Problem Statement : To reverse a String but without using reversing method whole of the String program.
+ *                     But one word only word can be reversed, not whole of the String has been reversed.
+ * @Author : Omkar Ingawale
+ */
+
+class imp{
+	
+	static String reversing(String[] s, int l){
+		
+		if(l % 2 == 0){
+			int j = l / 2;
+			while(j <= l -1){
+				String temp = s[j - l - 1];
+				s[j - l - 1] = s[j];
+				s[j] = temp;
+				j = j + 1;
+			}
+		}else{}
+		
+		return s;
+		
+	}
+	
+}
+
+public class ReverseString1 {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

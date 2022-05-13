@@ -1,0 +1,16 @@
+package proState;
+
+/*
+ * Problem Statement : A Duck Number is a number which has zeros present in it, but there should be
+ *                     no zero present in the begining of the number.
+ */
+
+public class DuckNumber {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

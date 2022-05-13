@@ -1,0 +1,27 @@
+package proState;
+
+import java.util.ArrayList;
+
+/*
+ * Problem Statement : To reverse a String but without reversing whole of the String it reverse only one word.
+ * @Author : Omkar Ingawale
+ */
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+
+		String rev = "Hello Omkar Ingawale";
+		char[] tempRev = rev.toCharArray();
+		int left, right;
+		right = tempRev.length - 1;
+		
+		for(left = 0; left < right; left++, right++){
+			char temp = tempRev[left];
+			tempRev[right] = tempRev[left];
+			tempRev[left] = temp;
+		}
+		
+	}
+
+}

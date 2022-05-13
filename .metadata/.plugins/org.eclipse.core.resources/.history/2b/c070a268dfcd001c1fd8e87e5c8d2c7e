@@ -1,0 +1,11 @@
+package proState;
+
+public class HappyNumber {
+
+	public static void main(String[] args) {
+		
+		int n, num, r = 1 ,sum = 0;
+		
+	}
+
+}

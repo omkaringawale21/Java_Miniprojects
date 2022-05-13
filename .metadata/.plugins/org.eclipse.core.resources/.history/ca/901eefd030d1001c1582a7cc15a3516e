@@ -1,0 +1,63 @@
+package OracleProjects;
+
+import java.sql.*;
+
+class connectivity
+{
+  public static void main(String args[ ])
+   {
+     Connection con=null;
+
+      try
+        {
+            //Loading driver in memory
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+
+            //Building bridge between java language& database
+            con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "Omkar@21");
+
+            //Building query
+            String query="Select * from student order by sno";
+
+            //Firing query to database 
+            Statement stmt=con.createStatement();
+            ResultSet rs=stmt.executeQuery(query);
+
+            //Itearting data
+            while(rs.next())
+             {
+               System.out.println(rs.getInt("sno") + " " + rs.getString("sname") + " " + rs.getInt("age"));
+             }
+
+            //Closing objects   
+            rs.close();
+            stmt.close();
+            con.close(); 
+        }
+      catch(Exception e)
+        {
+          System.out.println(e);
+        }
+ 
+   }
+}
+
+/*
+Method of 'DriverManager'class:
+getConnection() :
+Syntax:  public static synchronized Connection getConnection(String url, String userid, String password)
+                throws SQLException
+
+Method of 'Connection' interface:
+createStatement() :
+Statement createStatement()
+   
+Methods of 'Statement' interface :
+i) executeQuery():
+   ResultSet executeQuery(String query) throws SQLException
+
+Methods of 'ResultSet' interface :
+ i) next(): boolean next()
+ii) getString(): String getString(String columnName)
+ii) getInt(): int getInt(String columnName)
+*/

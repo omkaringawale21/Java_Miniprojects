@@ -1,0 +1,11 @@
+package Java_Miniproject_13;
+
+import java.io.*;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+public class Notepad {
+
+}

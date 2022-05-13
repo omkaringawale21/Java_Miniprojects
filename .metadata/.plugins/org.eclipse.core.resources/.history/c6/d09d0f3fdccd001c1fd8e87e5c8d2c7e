@@ -1,0 +1,28 @@
+package proState;
+
+import java.util.Scanner;
+
+public class GreatestCommonDivision {
+
+	public static void main(String[] args) {
+		
+		int a, b, gcd = 1;
+		System.out.print("Enter Number a : ");
+		Scanner sc = new Scanner(System.in);
+		a = sc.nextInt();
+		System.out.print("Enter Number b : ");
+		b = sc.nextInt();
+		
+		int min, max;
+		min = a;
+		if(min > b){
+			max = b;
+			min = a;
+		}else{
+			min = b;
+			max = a;
+		}
+		
+	}
+
+}

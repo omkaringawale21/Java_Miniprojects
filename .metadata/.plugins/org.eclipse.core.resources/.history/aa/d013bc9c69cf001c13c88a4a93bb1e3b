@@ -1,0 +1,17 @@
+package proState;
+
+/*
+ * Problem Statement : Multiply Digit Program
+ * Example : if Number 1234, then 1 * 2 * 3 * 4 = 24 thats a Multiply Digit.
+ * @Author : Omkar Ingawale
+ */
+
+public class MultiplyDigitProgram {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

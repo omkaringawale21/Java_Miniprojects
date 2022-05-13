@@ -1,0 +1,22 @@
+package proState;
+
+import java.util.Scanner;
+
+/*
+ * Problem Statement : Perfect Number Program in Java
+ * Example : 1, 2, 3 are the perfect numbers.
+ * @Author : Omkar Ingawale
+ */
+
+public class PerfectNumber {
+
+	public static void main(String[] args) {
+		
+		int n, sum = 0, mul = 1;
+		System.out.print("Enter a number : ");
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		
+	}
+
+}

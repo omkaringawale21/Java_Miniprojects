@@ -1,0 +1,11 @@
+package proState;
+
+public class LeastCommonNumber {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package proState;
+
+import java.util.Scanner;
+
+public class HappyNumber {
+
+	public static void main(String[] args) {
+		
+		int n, num, r = 1 ,sum = 0;
+		System.out.print("Enter a Number : ");
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextInt();
+		num = n;
+		
+		while(num > 9){
+			while(num > 0){
+				r = num % 10;
+				sum = sum + (r * r);
+				num = num /10;
+			}
+		}
+		
+	}
+
+}

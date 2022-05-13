@@ -1,0 +1,26 @@
+package proState;
+
+import java.util.Scanner;
+
+/*
+ * Problem Statement : An automorphic number is a number whose square ends in the same digit as the number itself.
+ * @Author Omkar Ingawale
+ */
+public class AutomorphicNumber {
+
+	public static void main(String[] args) {
+		
+		int n, sqrNum, temp, sqrNumRemainder, c = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter a number : ");
+		n = sc.nextInt();
+		temp = n;
+		 
+		while(temp > 0){
+			temp = temp / 10;
+			c++;
+		}
+		
+	}
+
+}

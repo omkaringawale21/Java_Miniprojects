@@ -1,0 +1,11 @@
+package proState;
+
+public class CoPrimeNumber {
+
+	public static void main(String[] args) {
+		
+		int a, b, gcd = 1;
+		
+	}
+
+}

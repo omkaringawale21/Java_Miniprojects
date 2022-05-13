@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GroupingSuite">
+  <test verbose="2" name="GroupingTest">
+  
+  <groups>
+  	<run>
+  		<include name="performance" />
+  		<exclude name="regression" />
+  	</run>
+  </groups>
+  
+    <classes>
+      <class name="com.learningTestNG.TestNG_Grouping"/>
+    </classes>
+  </test> 
+</suite>
