@@ -1,16 +1,13 @@
 package Java_Miniproject_13;
 
 import java.io.*;
-
 import javax.swing.*;
-
 import java.awt.*;
 import java.awt.event.*;
-
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 /*
- * Problem Statement : Build a SImple Notepad Application using Java.
+ * Problem Statement : Build a Simple Notepad Application using Java.
  * @Author : Omkar Ingawale
  */
 
@@ -45,6 +42,7 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 		createMenuItem(jmfile, "Save");
 		jmfile.addSeparator();
 		createMenuItem(jmfile, "Exit");
+		setVisible(true);
 		
 //		For Edit Menu
 		createMenuItem(jmedit, "Cut");
@@ -77,7 +75,7 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 
 	public void createMenuItem(JMenu jm, String string) {
 		
-		JMenuItem jmi = new JMenuItem();
+		JMenuItem jmi = new JMenuItem(string);
 		jmi.addActionListener(this);
 		jm.add(jmi);
 		
@@ -114,7 +112,7 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 			jta.setText("");
 			fnameContainer = null;
 		}else if(e.getActionCommand().equals("Open")){
-			int ret = jfc.showOpenDialog(null);
+			int ret = jfc.showOpenDialog(this);
 			
 			if(ret == JFileChooser.APPROVE_OPTION){
 				
@@ -137,7 +135,7 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 			jfc.setSelectedFile(new File("Untitle.txt - Notepad"));
 		}
 		
-		int ret = jfc.showSaveDialog(null);
+		int ret = jfc.showSaveDialog(this);
 		
 		if(ret == JFileChooser.APPROVE_OPTION){
 			
