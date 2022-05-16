@@ -23,34 +23,35 @@ public class GUI3 implements ActionListener {
 		
 		panel = new JPanel();
 		
-		frame.setSize(400, 200);
+		frame.setSize(400, 250);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocation(550, 350);
+		panel.setLayout(null);
 		frame.add(panel);
 		
 		label = new JLabel();
 		label.setText("Choose a Color :- ");
-		label.setBounds(20, 20, 50, 25);
+		label.setBounds(20, 20, 200, 25);
 		label.setFont(new Font("Tohams", Font.ITALIC, 16));
 		panel.add(label);
 		
 		btn = new JRadioButton("Red");
-		btn.setBounds(20, 50, 50, 25);
+		btn.setBounds(20, 50, 100, 25);
 		btn.addActionListener(this);
 		panel.add(btn);
 		
 		btn1 = new JRadioButton("Blue");
-		btn1.setBounds(20, 70, 50, 25);
+		btn1.setBounds(20, 80, 100, 25);
 		btn1.addActionListener(this);
 		panel.add(btn1);
 		
 		btn2 = new JRadioButton("Orange");
-		btn2.setBounds(20, 90, 50, 25);
+		btn2.setBounds(20, 110, 100, 25);
 		btn2.addActionListener(this);
 		panel.add(btn2);
 		
 		btn3 = new JRadioButton("Cyan");
-		btn3.setBounds(20, 120, 50, 25);
+		btn3.setBounds(20, 140, 100, 25);
 		btn3.addActionListener(this);
 		panel.add(btn3);
 		

@@ -99,7 +99,7 @@ public class GUI2 implements ActionListener {
 				JOptionPane.showMessageDialog(button, "Please Enter Username And Password!");
 			}else{
 				if( user.equals("Omkar Ingawale")  && pass.equals("Omkar@2108") ){
-					JOptionPane.showMessageDialog(button, user + "Login Successfully!");
+					JOptionPane.showMessageDialog(button, user + " " + "Login Successfully!");
 				}else{
 					JOptionPane.showMessageDialog(button, "Invalid UserName And Password!");
 				}
