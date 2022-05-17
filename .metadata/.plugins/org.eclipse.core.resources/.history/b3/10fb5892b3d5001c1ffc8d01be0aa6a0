@@ -1,0 +1,25 @@
+package proState;
+
+public class ReverseString2 {
+
+	public static void main(String[] args) {
+
+		String str = "Hello Omkar Ingawale";
+		
+		String[] strSplit = str.split("\\s");
+		
+		int l, r = strSplit.length - 1;
+		
+		for(l=0; l < r; l++, r--){
+			String temp = strSplit[l];
+			strSplit[l] = strSplit[r];
+			strSplit[r] = temp;
+		}
+		
+		for(String s : strSplit){
+			System.out.print(s);
+		}
+		
+	}
+
+}

@@ -1,0 +1,29 @@
+package proState;
+
+import java.util.Scanner;
+
+public class ReverseString2 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		String str = sc.nextLine();
+		
+		String[] strSplit = str.split(" ");
+		
+		int l, r = strSplit.length - 1;
+		
+		for(l=0; l < r; l++, r--){
+			String temp = strSplit[l];
+			strSplit[l] = strSplit[r];
+			strSplit[r] = temp;
+		}
+		
+		for(String s : strSplit){
+			System.out.print(s);
+		}
+		
+	}
+
+}

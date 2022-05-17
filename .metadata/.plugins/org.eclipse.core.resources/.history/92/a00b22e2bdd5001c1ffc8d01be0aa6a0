@@ -1,0 +1,18 @@
+package proState;
+
+/*
+ * Problem Statement : String reversing but whole of the string could not be reverse,
+ * Example be like, I/P : String str = "Hello Omkar Ingawale";
+ *                  O/P : String str = "olleH rakmO elawagnI";
+ * @Author : Omkar Ingawale
+ */
+
+public class ReverseString3 {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}
