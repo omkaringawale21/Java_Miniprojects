@@ -129,10 +129,10 @@ public class Notepad extends JFrame implements ActionListener, WindowListener {
 		}else if(e.getActionCommand().equals("Save")){
 			if(fnameContainer != null){
 				jfc.setCurrentDirectory(fnameContainer);
+			}else{
+				jfc.setSelectedFile(new File("Untitle.txt - Notepad"));
 			}
 			jfc.setSelectedFile(fnameContainer);
-		}else{
-			jfc.setSelectedFile(new File("Untitle.txt - Notepad"));
 		}
 		
 		int ret = jfc.showSaveDialog(this);

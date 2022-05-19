@@ -1,0 +1,19 @@
+package Java_Miniproject_14;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+
+public class Calculator extends JFrame {
+
+	JPanel panel;
+	
+	Calculator(){
+		panel = new JPanel();
+		
+		panel.setSize(500, 400);
+		panel.setVisible(true);
+		
+	}
+	
+}
