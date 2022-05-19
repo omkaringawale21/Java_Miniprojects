@@ -13,6 +13,10 @@ import javax.swing.JTextArea;
 import javax.swing.border.Border;
 import javax.swing.border.EmptyBorder;
 
+/*
+* Problem Statement : Graphical User Interface(GUI) Calculator.
+* @Author : Omkar Ingawale.
+*/
 
 public class Calculator extends JFrame {
 
@@ -96,15 +100,15 @@ public class Calculator extends JFrame {
 		});
 		panel.add(btn3);
 		
-		btn4 = new JButton("÷");
+		btn4 = new JButton("Ã·");
 		btn4.setFont(new Font("Arial", Font.BOLD, 18));
 		btn4.setBounds(290, 90, 70, 30);
 		btn4.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
-//				ta.setText(ta.getText() + "÷");
+//				ta.setText(ta.getText() + "Ã·");
 				frist = Double.parseDouble(ta.getText());
 				ta.setText("");
-				operation = "÷";
+				operation = "Ã·";
 			}
 		});
 		panel.add(btn4);
@@ -139,15 +143,15 @@ public class Calculator extends JFrame {
 		});
 		panel.add(btn7);
 		
-		btn8 = new JButton("×");
+		btn8 = new JButton("Ã—");
 		btn8.setFont(new Font("Arial", Font.BOLD, 18));
 		btn8.setBounds(290, 140, 70, 30);
 		btn8.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
-//				ta.setText(ta.getText() + "×");
+//				ta.setText(ta.getText() + "Ã—");
 				frist = Double.parseDouble(ta.getText());
 				ta.setText("");
-				operation = "×";
+				operation = "Ã—";
 			}
 		});
 		panel.add(btn8);
@@ -265,11 +269,11 @@ public class Calculator extends JFrame {
 					result = frist - second;
 					answer = String.format("%.4f", result);
 					ta.setText(answer);
-				}else if(operation == "×"){
+				}else if(operation == "Ã—"){
 					result = frist * second;
 					answer = String.format("%.4f", result);
 					ta.setText(answer);
-				}else if(operation == "÷"){
+				}else if(operation == "Ã·"){
 					result = frist / second;
 					answer = String.format("%.4f", result);
 					ta.setText(answer);
