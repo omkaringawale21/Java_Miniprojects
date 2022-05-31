@@ -30,8 +30,10 @@ public class Music {
 	
 		albums.get(0).addToPlayList("Arebic Song", playList_1);
 		albums.get(0).addToPlayList("Aur Bantai", playList_1);
+		albums.get(0).addToPlayList("Govyachya Kinaryavar", playList_1);
 		albums.get(1).addToPlayList("Jump kar", playList_1);
 		albums.get(1).addToPlayList("Mumbaichya Kinaryavar", playList_1);
+		albums.get(1).addToPlayList("Rammullo Rammulla", playList_1);
 		
 		play(playList_1);
 		

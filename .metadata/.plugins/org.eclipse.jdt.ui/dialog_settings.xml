@@ -54,14 +54,16 @@
 	</section>
 	<section name="FatJarPackageWizard">
 		<item value="C:\Users\USER\workspace" key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION"/>
-		<item value="MyApp - Java_Miniproject_13" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
-		<item value="F:\Java_Miniproject_Notepad\Notepad.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
+		<item value="MyClas - Java_Miniproject_14" key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME"/>
+		<item value="F:\Java_Miniproject_Calculator\Calculator.jar" key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION"/>
 		<item value="false" key="FatJarPackageWizardPage.ANTSCRIPT_SAVE"/>
 		<item value="1" key="FatJarPackageWizardPage.LIBRARY_HANDLING"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="F:\Java_Miniproject_Calculator\Calculator.jar"/>
 			<item value="F:\Java_Miniproject_Notepad\Notepad.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="C:\Users\USER\workspace.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>

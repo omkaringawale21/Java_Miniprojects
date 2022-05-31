@@ -1,9 +1,0 @@
-package Java_Miniproject_14;
-
-import javax.swing.JFrame;
-
-public class Calculator extends JFrame {
-
-	
-	
-}

@@ -2,6 +2,7 @@ package Java_Miniproject_14;
 
 import java.awt.Color;
 import java.awt.Font;
+import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -82,7 +83,11 @@ public class Calculator extends JFrame {
 		btn2.setBounds(110, 90, 70, 30);
 		btn2.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
-				ta.setText(ta.getText() + "(");
+				if(ta.getText().length() > 0){
+					ta.setText(ta.getText() + ")");
+				}else{
+					ta.setText(ta.getText() + "(");
+				}
 			}
 		});
 		panel.add(btn2);
@@ -258,7 +263,7 @@ public class Calculator extends JFrame {
 		btn18.addActionListener(new ActionListener(){
 			public void actionPerformed(ActionEvent evt){
 //				ta.setText(ta.getText() + "=");
-				String answer;
+//				String answer;
 				second = Double.parseDouble(ta.getText());
 				
 				if(operation == "+"){
