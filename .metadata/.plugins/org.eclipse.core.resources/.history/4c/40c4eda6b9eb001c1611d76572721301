@@ -1,0 +1,57 @@
+package BlockChainExample;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class BlockChainProgram {
+
+	public static void main(String[] args) {
+
+		// Demonstrate a hash function
+		String statement1 = "My world is perfect";
+		int hashValue = statement1.hashCode();
+		
+		System.out.println("Statement : " + statement1 + " ,whose hash value = " + hashValue);
+		
+		// let's hash an array
+		String [] list1 = {"alex", "becky", "cyril"};
+		String [] list2 = {"alex", "becky", "cyril"};
+		
+		int hash1 = Arrays.hashCode(list1);
+		int hash2 = Arrays.hashCode(list2);
+		
+		System.out.println("Hash1 : " + hash1 + " Hash2 : " + hash2);
+		
+		// Demonstrate a series of blocks in a chain
+		ArrayList<Block> blockChain = new ArrayList<Block>();
+		
+		String[] initialValues = {"Omkar has $700", "Swapnil has $700"};
+		
+		Block fristBlock = new Block(initialValues, 0);
+		
+		blockChain.add(fristBlock);
+		
+		System.out.println("Frist Block is : " + blockChain);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

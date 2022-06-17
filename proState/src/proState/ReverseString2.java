@@ -14,6 +14,8 @@ class ReverseString2 {
 		System.out.print("Enter a String : ");
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
+		
+		System.out.println("Before Reversing : " + str);
 
 		System.out.print("After Reversing : ");
 		for(int i=str.length()-1; i>=0; i--){

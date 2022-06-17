@@ -1,6 +1,7 @@
 package proState;
 
 import java.util.Base64;
+import java.util.Scanner;
 
 // Problem-Statement: Encode and Decode the String
 
@@ -8,7 +9,11 @@ public class Encode_Decode_2 {
 
 	public static void main(String[] args) {
 
-		String sample = "Hello My Name is Omkar Ingawale";
+//		String sample = "Hello My Name is Omkar Ingawale";
+		
+		System.out.print("Enter a String : ");
+		Scanner sc = new Scanner(System.in);
+		String sample = sc.nextLine();
 		
 		System.out.println("Original String : " + sample);
 

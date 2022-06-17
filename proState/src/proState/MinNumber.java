@@ -61,13 +61,13 @@ public class MinNumber {
 		
 //		int n1 = Integer.parseInt(args[0]);
 //		int num1 = n1;
-		int num1 = 1234567;
-		System.out.println("The smallest number is = " + printMinNumber(num1));
+		int num1 = 7654321;
+		System.out.println("The smallest number is = " + MinNumber.printMinNumber(num1));
 		
 //		int n2 = Integer.parseInt(args[0]);
 //		int num2 = n2;
-		int num2 = 1234567;
-		System.out.println("The smallest number is = " + printMinNumber(num2));
+		int num2 = -7654321;
+		System.out.println("The smallest number is = " + MinNumber.printMinNumber(num2));
 			
 	}
 

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="J2EE Preview at localhost" name="J2EE Preview at localhost" runtime-id="J2EE Preview" server-type="org.eclipse.jst.server.preview.server" server-type-id="org.eclipse.jst.server.preview.server" start-timeout="240" stop-timeout="240" timestamp="2">
+    <list key="modules"/>
+  </server>
+  <server hostname="localhost" id="J2EE Preview at localhost (2)" name="J2EE Preview at localhost (2)" runtime-id="J2EE Preview" server-type="org.eclipse.jst.server.preview.server" server-type-id="org.eclipse.jst.server.preview.server" start-timeout="240" stop-timeout="240" timestamp="1">
+    <list key="modules" value0="login-jsp-servlet-jdbc-exmaple::org.eclipse.jst.jee.server:login-jsp-servlet-jdbc-exmaple::jst.web::3.0"/>
+  </server>
+</servers>

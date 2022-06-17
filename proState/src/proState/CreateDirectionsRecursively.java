@@ -53,10 +53,13 @@ public class CreateDirectionsRecursively {
 	public static void main(String[] args) {
 		
 		// Creating a class object
-		CreateDirectionsRecursively ob = new CreateDirectionsRecursively();
+//		CreateDirectionsRecursively ob = new CreateDirectionsRecursively();
 		
 		// Path for windows -> "F:\\OmkarTXT\\"
-		ob.file("F:\\OmkarTXT", "OMKAR", 5);
+//		ob.file("F:\\OmkarTXT", "OMKAR", 5);
+		
+		// Static Method hence called like ClassName.MethodName
+		CreateDirectionsRecursively.file("F:\\OmkarTXT", "OMKAR", 5);
 		
 	}
 	

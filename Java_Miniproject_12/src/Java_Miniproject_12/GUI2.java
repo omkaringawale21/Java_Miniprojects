@@ -86,7 +86,7 @@ public class GUI2 implements ActionListener {
 		
 		try {
 			
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/login" , "root" , "Omkar@21");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/login.log" , "root" , "Omkar@21");
 			
 			String query = "INSERT INTO log VALUES('" + user + "','" + pass + "')";
 			

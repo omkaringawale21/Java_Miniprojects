@@ -15,7 +15,7 @@ public class Create_QR {
 	public static void main(String[] args) {
 		
 		try{
-			String qrCodeData = "www.googlemaps.com";
+			String qrCodeData = "www.omkarcv.com";
 			String filePath = "F:\\QR-Code\\qqrr-code.png";
 			String charset = "UTF-8";    // Or "ISO-8859-1"
 			Map< EncodeHintType, ErrorCorrectionLevel > hintMap = new HashMap < EncodeHintType, ErrorCorrectionLevel >();

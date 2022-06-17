@@ -20,7 +20,7 @@ class Book{
 	public String toString(){
 		return "Book {" +
 	           "name = '" + name + "',\n" +
-			   " author = '" + author + "'" + "}\n";
+			   "  author = '" + author + "'" + "}\n";
 	}
 	
 }
