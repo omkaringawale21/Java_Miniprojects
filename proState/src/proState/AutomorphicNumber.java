@@ -12,7 +12,7 @@ public class AutomorphicNumber {
 
 	public static void main(String[] args) {
 		
-		int n, sqrNum, temp, sqrNumRemainder, c = 0;
+		int n, sqrNum, temp, sqrNumRemainder, d = 0;
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		n = sc.nextInt();
@@ -20,11 +20,11 @@ public class AutomorphicNumber {
 		 
 		while(temp > 0){
 			temp = temp / 10;
-			c++;
+			d++;
 		}
 		
 		sqrNum = n * n;
-		sqrNumRemainder = sqrNum % (int)Math.pow(10, c);
+		sqrNumRemainder = sqrNum % (int)Math.pow(10, d);
 		
 		if(sqrNumRemainder == n){
 			System.out.println(sqrNumRemainder + " is Automorphic Number");

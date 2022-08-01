@@ -27,7 +27,7 @@ public class MobilePhone implements Telephone{
 			System.out.println("Answering the mobile phone");
 			isRinging = false;
 		}else{
-//			System.out.println("Phone is not ringing");
+			System.out.println("Phone is not ringing");
 		}
 	}
 

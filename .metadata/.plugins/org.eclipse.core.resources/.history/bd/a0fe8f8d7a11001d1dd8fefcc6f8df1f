@@ -1,0 +1,33 @@
+package Java_Miniproject_17;
+
+import javax.swing.JFileChooser;
+
+public class test extends javax.swing.JFrame {
+
+	public test(){
+		jButtonActionPerformed(avt);
+	}
+	
+	@SuppressWarnings("unchecked")
+	private void jButtonActionPerformed(java.awt.event.ActionListener avt){
+		JFileChooser jFileChooser = new JFileChooser();
+		int action = jFileChooser.showOpenDialog(this);
+		if(action == 1){
+			System.out.println(jFileChooser.getSelectedFile());
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		java.awt.EventQueue.invokeLater(new Runnable(){
+			@Override
+			public void run() {
+				new test().setVisible(true);
+			}
+		});
+
+	}
+
+	private javax.swing.JButton jButton;
+	
+}

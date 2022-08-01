@@ -159,7 +159,7 @@ public class UserRegistration extends JFrame {
 				
 				try{
 					
-					Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/swing_demo", "root", "Omkar@21");
+					Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydatabase", "root", "Omkar@21");
 					
 					String query = "INSERT INTO account values('" + fristName + "','" + lastName + "','" + userName + "','" +
 							password + "','" + emailId + "','" + mobileNumber + "')";

@@ -29,7 +29,7 @@ public class GUI implements ActionListener {
 		label.setText("Number of Clicks : 0");
 		
 		panel = new JPanel();
-		panel.setBorder(BorderFactory.createEmptyBorder(35, 35, 10, 30));
+		panel.setBorder(BorderFactory.createEmptyBorder(45, 45, 10, 30));
 		panel.setLayout(new GridLayout(0, 1));
 		panel.add(button);
 		panel.add(label);

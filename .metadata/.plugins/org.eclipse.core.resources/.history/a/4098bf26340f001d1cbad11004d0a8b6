@@ -1,0 +1,15 @@
+package org.omkaringawale.dione;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		Resource resource = new ClassPathResource("applicationContext.xml");
+		
+
+	}
+
+}

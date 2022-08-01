@@ -28,7 +28,7 @@ public class Google_Map extends javax.swing.JFrame{
 		TileFactoryInfo info = new OSMTileFactoryInfo();
 		DefaultTileFactory tileFactory = new DefaultTileFactory(info);
 		jXMapViewer.setTileFactory(tileFactory);
-		GeoPosition geo = new GeoPosition(18.4494217,73.8594742);
+		GeoPosition geo = new GeoPosition(18.4494217, 73.8594742);
 		jXMapViewer.setAddressLocation(geo);
 		jXMapViewer.setZoom(12);
 		

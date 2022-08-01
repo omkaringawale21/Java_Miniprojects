@@ -29,6 +29,9 @@ class ReverseString3 {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		
+		System.out.print("Before Reversing : ");
+		System.out.println(str);
+		
 		String arr[] = str.split(" ");
 		MyLogic ml = new MyLogic();
 		String newString = "";

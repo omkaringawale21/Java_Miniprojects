@@ -88,7 +88,7 @@ public class AES {
 	public static void main(String[] args) {
 		
 		// Create String Variables
-		String originalString = "Omkar Ingawale";
+		String originalString = "Omkar Ingawale From Kolhapur";
 		
 		// Call Encryption Method
 		String encryptedString = AES.encrypt(originalString);

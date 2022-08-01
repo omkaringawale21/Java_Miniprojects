@@ -76,7 +76,7 @@ class logic3 implements Runnable{
 	
 	public void run(){
 		for(int i = 21; i <= 30; i++){
-			System.out.println(Thread.currentThread().getName() + " Hello Omkar Ingawale " + i);
+			System.out.println(Thread.currentThread().getName() + " Hello Swanil Chikane " + i);
 			try {
 				Thread.sleep(1000);
 				if(i == 25) obj.join();

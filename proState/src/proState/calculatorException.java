@@ -92,11 +92,11 @@ public class calculatorException {
 	public static void main(String[] args) throws invalidInputException, maximumInputException, multiplicationInputException, cannotDivideByZero{
 		
 		calculator1 cal = new calculator1();
-//		cal.addition(8, 9);
+		cal.addition(8, 9);
 //		cal.subtraction(8, 9);
 //		cal.subtraction(100000, 100000);
 //		cal.multiplication(8, 0);
-		cal.dividation(8, 9);
+//		cal.dividation(8, 9);
 		
 	}
 
