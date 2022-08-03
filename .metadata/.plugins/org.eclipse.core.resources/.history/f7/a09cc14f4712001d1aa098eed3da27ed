@@ -1,0 +1,14 @@
+package org.omkaringawale.difour;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class DemoDiFour {
+
+	public static void main(String[] args) {
+		
+		Resource resource = new ClassPathResource("applicationContext.xml");
+
+	}
+
+}

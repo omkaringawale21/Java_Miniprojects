@@ -1,0 +1,9 @@
+package org.omkaringawale.ditwo;
+
+public class Address {
+	
+	private String district;
+	private String state;
+	private String country;
+	
+}

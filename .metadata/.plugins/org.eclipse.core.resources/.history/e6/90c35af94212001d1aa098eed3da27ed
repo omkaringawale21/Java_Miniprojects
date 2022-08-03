@@ -1,0 +1,22 @@
+package org.omkaringawale.dithree;
+
+public class Student {
+
+	private int sno;
+	private String sname;
+	private int age;
+	private Address address;
+	
+	public Student(int sno, String sname, Address address) {
+		super();
+		this.sno = sno;
+		this.sname = sname;
+		this.address = address;
+	}
+	
+	public void displayStudent(){
+		System.out.println(sno + " : " + sname + " : " + sno);
+		System.out.println(address);
+	}
+	
+}

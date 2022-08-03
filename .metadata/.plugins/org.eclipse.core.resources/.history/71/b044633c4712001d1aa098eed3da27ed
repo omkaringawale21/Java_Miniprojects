@@ -1,0 +1,10 @@
+package org.omkaringawale.difour;
+
+public class DemoDiFour {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

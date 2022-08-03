@@ -1,0 +1,8 @@
+package org.omkaringawale.dithree;
+
+public class Student {
+
+	private int sno;
+	private String sname;
+	private int age;
+}

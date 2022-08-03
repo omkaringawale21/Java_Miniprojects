@@ -1,0 +1,15 @@
+package org.omkaringawale.dithree;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class DemoDIThree {
+
+	public static void main(String[] args) {
+		
+		Resource resource = new ClassPathResource("applicationContext.xml");
+		
+
+	}
+
+}
