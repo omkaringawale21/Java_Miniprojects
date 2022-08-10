@@ -1,0 +1,23 @@
+package org.omkaringawale.flowproject.dao.impl;
+
+import java.sql.Connection;
+
+import org.omkaringawale.flowproject.dao.SumDao;
+import org.omkaringawale.flowproject.model.SumForm;
+
+public class SumDaoImpl implements SumDao {
+
+	@Override
+	public void insertNumbers(SumForm sumForm) {
+		
+		Connection connection = null;
+		
+		try{
+			
+			
+			
+		}catch(){}
+		
+	}
+
+}

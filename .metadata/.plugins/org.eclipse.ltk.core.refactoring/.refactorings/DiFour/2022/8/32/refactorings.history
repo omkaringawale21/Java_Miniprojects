@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;applicationContext.xml&apos; to &apos;DiFour&apos;" description="Move &apos;applicationContext.xml&apos; to &apos;DiFour&apos;" destination="/DiFour" element1="/DIFive/applicationContext.xml" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1659606597687" updateReferences="true"/>
+</session>

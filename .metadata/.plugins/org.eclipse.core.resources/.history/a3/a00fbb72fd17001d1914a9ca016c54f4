@@ -1,0 +1,27 @@
+package org.omkaringawale.flowproject;
+
+import org.omkaringawale.flowproject.controller.SumController;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+public class DemoFlowProject {
+
+	public static void main(String[] args) {
+		
+		MyModel myModel = new MyModel();
+		myModel.setFno(300);
+		myModel.setSno(50);
+		
+		Resource resource = new ClassPathResource("applicationContext.xml");
+		BeanFactory beanFactory = new XmlBeanFactory(resource);
+		SumController sc = (SumController)beanFactory.getBean("idSumController");
+		sc.doMathCal(myModel);
+
+		System.out.println("Sum = " + myModel.getSum());
+		System.out.println("Sub = " + myModel.getSub());
+		
+	}
+
+}

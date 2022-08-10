@@ -1,0 +1,10 @@
+package org.omkaringawale.flowproject.dto;
+
+public class SumDto {
+
+	private int fno;
+	private int sno;
+	private int sum;
+	private int sub;
+	
+}

@@ -1,0 +1,5 @@
+package org.omkaringawale.flowproject.service.impl;
+
+public class SumServiceImpl {
+
+}

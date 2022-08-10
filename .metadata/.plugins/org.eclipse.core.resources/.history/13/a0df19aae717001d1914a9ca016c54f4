@@ -1,0 +1,7 @@
+package org.omkaringawale.flowproject.dao.impl;
+
+import org.omkaringawale.flowproject.dao.SumDao;
+
+public class SumDaoImpl implements SumDao {
+
+}

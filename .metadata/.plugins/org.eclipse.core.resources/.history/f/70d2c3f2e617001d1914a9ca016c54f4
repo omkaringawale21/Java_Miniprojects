@@ -1,0 +1,7 @@
+package org.omkaringawale.flowproject.model;
+
+public interface SumDao {
+
+	public void insertNumbers(SumForm sumForm);
+	
+}

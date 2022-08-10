@@ -1,0 +1,26 @@
+package org.omkaringawale.flowproject.dao.impl;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import org.omkaringawale.flowproject.dao.SumDao;
+import org.omkaringawale.flowproject.model.SumForm;
+
+public class SumDaoImpl implements SumDao {
+
+	@Override
+	public void insertNumbers(SumForm sumForm) {
+		
+		Connection connection = null;
+		
+		try{
+			
+			Class.forName("oracle.jdbc.driver.OracleDriver");
+			connection = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "root");
+			
+			
+		}catch(){}
+		
+	}
+
+}

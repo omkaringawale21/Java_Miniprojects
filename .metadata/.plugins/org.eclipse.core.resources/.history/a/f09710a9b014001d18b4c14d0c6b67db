@@ -1,0 +1,10 @@
+package org.omkaringawale.jdbctemplateproject;
+
+public class DemoTrainMaster {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

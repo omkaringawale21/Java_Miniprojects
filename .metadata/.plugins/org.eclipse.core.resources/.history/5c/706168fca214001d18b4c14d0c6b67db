@@ -1,0 +1,21 @@
+package org.omkaringawale.dieight;
+
+import java.util.List;
+
+public class ReceiptList {
+
+	private List<Receipt> receipts;
+
+	public ReceiptList(List<Receipt> receipts) {
+		this.receipts = receipts;
+	}
+	
+	public void displayReceiptList(){
+		
+		for(Receipt rec : receipts){
+			System.out.println(rec);
+		}
+		
+	}
+	
+}

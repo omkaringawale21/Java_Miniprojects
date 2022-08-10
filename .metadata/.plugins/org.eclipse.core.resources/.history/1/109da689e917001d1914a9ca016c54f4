@@ -1,0 +1,5 @@
+package org.omkaringawale.flowproject.dto;
+
+public class SumDto {
+
+}

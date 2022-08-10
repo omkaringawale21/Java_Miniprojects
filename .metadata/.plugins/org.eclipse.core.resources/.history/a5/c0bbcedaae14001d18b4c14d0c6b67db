@@ -1,0 +1,11 @@
+package org.omkaringawale.jdbctemplateproject;
+
+public class TrainMaster {
+
+	private int trainno;
+	private String trainname;
+	private String fromplace;
+	private String toplace;
+	private String traintype;
+	
+}

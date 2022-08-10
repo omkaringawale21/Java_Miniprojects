@@ -1,0 +1,21 @@
+package org.omkaringawale.dieight;
+
+import java.util.List;
+import java.util.Map;
+
+public class CourseList {
+
+	private List<Course> courseList;
+	private Map<Student, ReceiptList> studentWise;
+	
+	public CourseList(List<Course> courseList,
+			Map<Student, ReceiptList> studentWise) {
+		this.courseList = courseList;
+		this.studentWise = studentWise;
+	}
+	
+	public void displayCourseList(){
+		
+	}
+	
+}

@@ -1,0 +1,21 @@
+package org.omkaringawale.flowproject.controller;
+
+import org.omkaringawale.flowproject.service.SumService;
+
+public class SumController {
+
+	private SumService service;
+
+	public SumService getService() {
+		return service;
+	}
+
+	public void setService(SumService service) {
+		this.service = service;
+	}
+	
+	public void doMathCal(int fno, int sno){
+		
+	}
+	
+}

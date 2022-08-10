@@ -1,0 +1,28 @@
+package org.omkaringawale.flowproject.model;
+
+public class SumForm {
+
+	private int fno;
+	private int sno;
+	private int age;
+	
+	public int getFno() {
+		return fno;
+	}
+	public void setFno(int fno) {
+		this.fno = fno;
+	}
+	public int getSno() {
+		return sno;
+	}
+	public void setSno(int sno) {
+		this.sno = sno;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+}
