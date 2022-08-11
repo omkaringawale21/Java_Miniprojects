@@ -1,0 +1,98 @@
+package Java_Miniproject_19;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExportExcel {
+
+	public static void main(String[] args) {
+		
+//		Data are needed to export
+		
+		int[] serial = new int[10];
+		for (int i = 0; i < serial.length; i++) {
+			serial[i] = i + 1;
+		}
+		
+		String[] name = new String[10];
+		name[0] = "Student A";
+		name[1] = "Student B";
+		name[2] = "Student C";
+		name[3] = "Student D";
+		name[4] = "Student E";
+		name[5] = "Student F";
+		name[6] = "Student G";
+		name[7] = "Student H";
+		name[8] = "Student I";
+		name[9] = "Student J";
+		
+		String[] result = new String[10];
+		result[0] = "Pass";
+		result[1] = "Pass";
+		result[2] = "Fail";
+		result[3] = "Pass";
+		result[4] = "Pass";
+		result[5] = "Fail";
+		result[6] = "Fail";
+		result[7] = "Pass";
+		result[8] = "Pass";
+		result[9] = "Fail";
+		
+//		Create a Workbook
+		
+		XSSFWorkbook workbook = new XSSFWorkbook();
+		
+//		Create a spread Sheet
+		
+		XSSFSheet sheet = workbook.createSheet("Results");
+		
+//		Create a Row Object
+		
+		XSSFRow row;
+		
+//		Create Cell
+		
+		row = sheet.createRow(0);
+		Cell cell0 = row.createCell(0);
+		Cell cell1 = row.createCell(1);
+		Cell cell2 = row.createCell(2);
+		
+		cell0.setCellValue("Serial No.");
+		cell1.setCellValue("Name Of The Students");
+		cell2.setCellValue("Results");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
